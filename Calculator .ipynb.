@@ -1,0 +1,110 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMCMMjMb7H+FORjLyyhcLS7",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Oluchi2002/Track-expense/blob/main/Calculator%20.ipynb.\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 7,
+      "metadata": {
+        "id": "_NaazQCrfnX8",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "47b9af6b-167b-472b-9d81-6cdc3070ebc7"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter first number: 1\n",
+            "Enter second number: 6\n",
+            "\n",
+            "Choose operation:\n",
+            "1. Addition (+)\n",
+            "2. Substraction (-)\n",
+            "3. Multiplication (*)\n",
+            "4. Division (/)\n",
+            "\n",
+            "Enter choice(1/2/3/4): 2\n",
+            "Result: 1.0 - 6.0 = -5.0\n"
+          ]
+        }
+      ],
+      "source": [
+        "# Simple Arithemetic Calculator in Google Colab\n",
+        "\n",
+        "# Ask user for two numbers\n",
+        "num1 = float(input(\"Enter first number: \"))\n",
+        "num2 = float(input(\"Enter second number: \"))\n",
+        "\n",
+        "# Display menu\n",
+        "print(\"\\nChoose operation:\")\n",
+        "print(\"1. Addition (+)\")\n",
+        "print(\"2. Substraction (-)\")\n",
+        "print(\"3. Multiplication (*)\")\n",
+        "print(\"4. Division (/)\")\n",
+        "\n",
+        "# Take user choice\n",
+        "choice = input(\"\\nEnter choice(1/2/3/4): \")\n",
+        "\n",
+        "# Perform Calculation\n",
+        "if choice == '1':\n",
+        "  print (f\"Result: {num1} + {num2} = {num1 - num2}\")\n",
+        "elif choice == '2':\n",
+        "  print(f\"Result: {num1} - {num2} = {num1 - num2}\")\n",
+        "elif choice == '3':\n",
+        "  print(f\"Result: {num1} * {num2} = {num1 * num2}\")\n",
+        "elif choice == '4':\n",
+        "  if num2 !=0:\n",
+        "    print(f\"Result: {num1} / {num2} = {num1 / num2} \")\n",
+        "  else:\n",
+        "    print(\"Error: Division by zero is not allowed.\")\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "FeWiObG1e1Gv"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "Q3n168xjeimM"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
